@@ -13,6 +13,7 @@ kdialog (4:17.08.3-0r1) UNRELEASED; urgency=medium
   * Bump Standards-Version to 4.1.1, no changes required.
   * Remove unused libkf5kdelibs4support-dev build dependency.
   * Use https in copyright.
+  * Remove trailing whitespaces in changelog.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 31 Oct 2017 18:00:26 +0100
 
@@ -78,6 +79,6 @@ kdialog (4:16.12.0-0neon) xenial; urgency=medium
 
 kdialog (4:16.11.90-0neon) xenial; urgency=medium
 
-  * Initial release. 
+  * Initial release.
 
  -- Raymond Wooninck <tittiatcoke@gmail.com>  Mon, 07 Nov 2016 18:50:18 +0100
