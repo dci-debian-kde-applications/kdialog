@@ -29,8 +29,9 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/kdialog.git
 Package: kdialog
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Replaces: kde-baseapps-bin, ${kde-l10n:all}
-Conflicts: kde-baseapps-bin
-Breaks: ${kde-l10n:all}
+Replaces: kde-baseapps-bin (<< 4:16.08.3-2~),
+          ${kde-l10n:all}
+Breaks: kde-baseapps-bin (<< 4:16.08.3-2~),
+        ${kde-l10n:all}
 Description: Dialog display utility
  KDialog allows you to display dialog boxes from shell scripts.
